@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Steeton Sailors & Soldiers Club</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #002366;
+      color: #FFD700;
+      margin: 0;
+    }
+    header, footer {
+      background-color: #001f4d;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #FFD700;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #003080;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    img.logo {
+      max-width: 200px;
+    }
+    button {
+      background-color: #FFD700;
+      color: #002366;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Club Logo" class="logo">
+  <h1>Steeton Sailors & Soldiers Club</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#membership">Membership</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <p>Welcome to the historic Steeton Sailors & Soldiers Club, proudly serving our community since 1919. Whether you're here for good company, entertainment, or a pint, you're among friends.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Founded in the wake of the First World War, our club is a proud home for servicemen, veterans, and civilians alike. We host events, community nights, and more — all in the spirit of camaraderie and remembrance.</p>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <p>Photos coming soon! Stay tuned for highlights from our events and club nights.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: info@sailorsandsoldiersclub.co.uk</p>
+  <p>Location: Steeton, West Yorkshire</p>
+  <p>Facebook: <a href="#" style="color: #FFD700;">Follow us</a></p>
+</section>
+
+<section id="membership">
+  <h2>Join or Renew Membership</h2>
+  <p>Support the club and enjoy exclusive member benefits for just <strong>£10 per year</strong>.</p>
+
+  <!-- Stripe Payment Button -->
+  <form action="https://buy.stripe.com/test_4gw7uh3fG0F7aHCcMO" method="GET">
+    <button type="submit">Pay with Stripe</button>
+  </form>
+
+  <p>After payment, you'll be given access to the members-only page.</p>
+</section>
+
+<!-- Hidden Members Page -->
+<section id="members" style="display: none;">
+  <h2>Members Only</h2>
+  <p>Welcome, member! This area includes club documents, notices, and contact list. (Add content here as needed.)</p>
+</section>
+
+<footer>
+  <p>© 2025 Steeton Sailors & Soldiers Club</p>
+</footer>
+
+</body>
+</html>

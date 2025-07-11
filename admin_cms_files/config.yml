@@ -1,0 +1,18 @@
+
+backend:
+  name: github
+  repo: Lukethompson420/sailors-and-soldiers-site
+  branch: main
+
+media_folder: "gallery"
+public_folder: "/gallery"
+
+collections:
+  - name: "pages"
+    label: "Site Pages"
+    files:
+      - file: "index.html"
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - { label: "Welcome Text", name: "body", widget: "text" }
